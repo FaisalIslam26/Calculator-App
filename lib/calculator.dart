@@ -756,14 +756,17 @@ class _HomeState extends State<Home> {
                         }
                       });
                     },
-                    child: Container(
-                      alignment: Alignment.center,
-                      decoration: BoxDecoration(
-                          color: Colors.green,
-                          borderRadius: BorderRadius.circular(20)),
-                      child: Text(
-                        "=",
-                        style: TextStyle(color: Colors.white, fontSize: 32),
+                    child: Padding(
+                      padding: const EdgeInsets.all(5.0),
+                      child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: Colors.green,
+                            borderRadius: BorderRadius.circular(20)),
+                        child: Text(
+                          "=",
+                          style: TextStyle(color: Colors.white, fontSize: 32),
+                        ),
                       ),
                     ),
                   ),
